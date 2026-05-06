@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["nodejs-slim_latest"]
+nixPkgs = ["nodejs_22"]
 
 [phases.install]
 cmds = ["cd server && npm install", "cd client && npm install"]
